@@ -1,0 +1,53 @@
+<!-- შექმენით ბანკის ანგარიშის დასარეგისტრირებელი ფორმა. დაამატეთ სახელი, გვარი, პირადი ნომერი და იმ თანხის რაოდენობა,
+რამდენის გამოტანაც გსურთ თქვენი საბანკო ანგარიშიდან.
+
+ბოლოს დაუმატეთ Drop-down menu სადაც გექნებათ ფულის სამდენიმე ვალუტა:
+• Gel
+• Usd
+• Euro
+• Yen
+
+საიტს ბოლოში აუცილებლად დაუმატეთ Submit ღილაკი. (არ დაგავიწყდეთ, რომ ფორმაში დამატებულ ელემენტებს გაუწეროთ name/value
+ატრიბუტები -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Bank account registration form</h2>
+
+    <form>
+        <label for="name">Name: </label>
+        <input type="text" id="name" name="username" value="username" placeholder="Enter your name" required><br><br>
+
+        <label for="surname">Surname: </label>
+        <input type="text" id="surname" value="surname" name="surname" placeholder="Enter your surname"
+            required><br><br>
+
+        <label for="p_number">Personal Number: </label>
+        <input type="number" id="p_number" value="number" name="personal number"
+            placeholder="Enter your pesronal number" required><br><br>
+
+        <label for="money_amount">The amount of money to withdraw: </label>
+        <input type="number" id="money_amount" value="amount" name="withdraw_amount"
+            placeholder="Enter the amount of money to withdraw" required><br><br>
+
+        <label for="currency">Currency: </label>
+        <select name="Currency" id="currency" required>
+            <option value="Gel">GEL</option>
+            <option value="Usd">USD</option>
+            <option value="Euro">EURO</option>
+            <option value="Yen">YEN</option>
+        </select><br><br>
+
+        <input type="submit" value="submit">
+    </form>
+</body>
+
+</html>

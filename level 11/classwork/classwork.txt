@@ -1,0 +1,5 @@
+1. ჩამოწერეთ ყველა თეგი, რომელიც დღეს განვიხილეთ - თითოეულს მიუთითეთ მათი დანიშნულება.
+
+<ol></ol> - ordered list. Used in html for ordered lists
+<ul></ul> - unordered list. Used for unordered lists
+<li></li> - list items. Its nested in either ordered list or unordered list

@@ -1,0 +1,41 @@
+* {
+    background-color: rgba(99, 71, 35, 0.789);
+    margin: 2px;
+    padding: 5px;
+}
+
+h1 {
+    text-align: center;
+    color: rgb(255, 234, 204);
+    text-decoration: dotted;
+    text-decoration-color: beige;
+    font-size: 30px;
+    font-weight: 5000;
+}
+
+li a {
+    text-decoration: none;
+    color: rgb(8, 172, 194);
+}
+
+ul {
+    color: blanchedalmond;
+}
+
+h2,
+p {
+    color: antiquewhite;
+}
+
+button {
+    color: rgb(41, 26, 3);
+    border-radius: 5px;
+    background-color: antiquewhite;
+    border-color: bisque;
+}
+
+h3 {
+    color: blanchedalmond;
+    font-size: 22px;
+    font-weight: 5000;
+}

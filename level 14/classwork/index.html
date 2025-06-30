@@ -1,0 +1,47 @@
+<!-- 1) შექმენით ფორმა, სადაც მომხმარებელს შეეძლება ნივთის შეკვეთა,
+
+ფორმაში დაამატეთ:
+• სახელი და გვარის შესატანი ველი
+• ნომრის შესატანი ველი
+• მომხმარებლის მისამართი
+• მომხმარებლის მიერ არჩეული პროდუქტის დასახელება.
+• ბოლოს რათქმაუნდა Submit ღილაკიც დაამატეთ.
+
+ფოტმის შექმნისას, გამოიყენეთ ყველა ის ატრიბუტი, რომელიც დღეს გასწავლეთ. -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>Order Form</h1>
+
+    <form action="dataaddress.rndm">
+        <label for="username">Username</label><br>
+        <input type="text" id="username" name="username" placeholder="Enter your username: "><br><br>
+
+        <label for="l_name">Lastname</label><br>
+        <input type="text" id="l_name" name="lastname" placeholder="Enter your lastname: "><br><br>
+
+        <label for="phone">Number: </label><br>
+        <input type="tel" id="phone" name="phone number" placeholder="+995 xxx xxx"><br><br>
+
+        <label for="email">Email: </label><br>
+        <input type="email" id="email" name="email" placeholder="example@gmail.com"><br><br>
+
+        <label for="product">Product Name:</label><br>
+        <input type="text" id="product" name="product" placeholder="ex: headphones" required><br><br>
+
+        <button type="submit">Submit</button>
+    </form>
+
+
+
+</body>
+
+</html>
